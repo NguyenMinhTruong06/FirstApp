@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstApp.Data\FirstApp.Data.csproj" />
+    <ProjectReference Include="..\FirstApp.Infrastructure\FirstApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\FirstApp.Utilities\FirstApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
